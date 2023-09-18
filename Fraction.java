@@ -1,5 +1,5 @@
 public class Fraction implements INumber<Fraction> {
-   private int numerator;
+    private int numerator;
     private int denominator;
 
     public Fraction(int numerator, int denominator) {
@@ -42,5 +42,5 @@ public class Fraction implements INumber<Fraction> {
     public void print() {
         System.out.println(this.numerator + "/" + this.denominator);
     }
-    
+
 }
