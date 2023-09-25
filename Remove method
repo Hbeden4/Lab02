@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+
+public class myArrayList extends ArrayList<Fraction> {
+    public myArrayList() {
+        ensureCapacity(50);
+    }
+
+    // Override the remove method to return a Fraction object
+    public Fraction remove(int index) {
+        if (index < 0 || index >= size()) {
+            throw new IndexOutOfBoundsException("Index is out of bounds.");
+        }
+
+        return super.remove(index);
+    }
+}
