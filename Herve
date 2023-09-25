@@ -1,3 +1,5 @@
+// Herve Eden Badege code...
+
 public class Main {
     public static void main(String[] args) {
         myArrayList myArrayList = new myArrayList(50, 0.2);
@@ -10,23 +12,6 @@ public class Main {
         // Print the ArrayList
         System.out.println(myArrayList);
 
-        // Find the index of a fraction
-        int index = myArrayList.indexOf(new Fraction(3, 4));
-        System.out.println("Index of fraction 3/4: " + index);
-
-        // Add a fraction at a specific index
-        myArrayList.add(1, new Fraction(7, 8));
-
-        // Print the ArrayList
-        System.out.println(myArrayList);
-
-        // Remove a fraction at a specific index
-        Fraction removedFraction = myArrayList.remove(2);
-
-        // Print the ArrayList
-        System.out.println(myArrayList);
-
-        // Print the removed fraction
-        System.out.println("Removed fraction: " + removedFraction);
+      
     }
 }
