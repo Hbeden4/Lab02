@@ -1,4 +1,4 @@
-// Herve Eden Badege code...
+
 public class Main {
     public static void main(String[] args) {
         myArrayList myArrayList = new myArrayList(50, 0.2);
