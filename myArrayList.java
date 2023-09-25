@@ -1,3 +1,4 @@
+
 import java.util.ArrayList;
 //Code By Silas
 public class myArrayList extends ArrayList<Fraction> {
@@ -19,3 +20,15 @@ public class myArrayList extends ArrayList<Fraction> {
         super.add(index, input);
     }
 }
+
+import java.util.ArrayList;
+
+public class myArrayList extends ArrayList<Fraction>
+{
+    public myArrayList() { ensureCapacity(50); }
+
+    public int indexOf(Fraction input) {
+        return super.indexOf(input);
+    }
+}
+
