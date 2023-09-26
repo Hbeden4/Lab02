@@ -40,8 +40,8 @@ public class myArrayList extends ArrayList<Fraction> {
      * @since 18 September 2023
      * @author Julian Edwards
      */
-    public int indexOf(Fraction input) {
-        return super.indexOf(input); // I realized the code I had here was the same as java's so I'm just calling super here, I hope that's ok
+    public int indexOf(Fraction o) {
+        return super.indexOf(o); // I realized the code I had here was the same as java's so I'm just calling super here, I hope that's ok
     }
 }
 
